@@ -1,0 +1,28 @@
+1. Machine Learning : 컴퓨터가 주어진 입력값(X)과 찾고자 하는 값(y) 사이의 관계를 모델링하는 방법
+    0) 공부하는 것과 비슷함
+        - 기말고사에서 주어진 족보를 풀어서 기말고사 점수가 향상되는 과정을 학습이라고 함(Human Learning)
+        - 데이터와 데이터 사이의 관계를 찾는 것 
+        
+        y = f(x)
+            [ x = 입력 데이터 , y = 타겟값, f = 모델 ]
+
+        - 입력 데이터(x)와 타겟값(y)을 알고 있는 데이터를 학습하여, 이들의 관계를 
+          모델링하는 학습 방법    
+
+    1) Supervised Learning
+        - 입력 데이터(x)와 그에 해당하는 정답(y)가 함께 학습에 사용되는 방법론.
+         
+        a. Classification(분류)
+            - 주어진 데이터(x)를 몇가지 종류(y, category)로 나누는 방법
+        b. Regression(회귀)
+            - 주어진 데이터(x)와 관련이 있다고 생각하는 값(y) 사이의 관계를 찾는 방법 
+    
+        2) Unsupervised Learning (군집화)
+            - 입력 데이터(x)만 학습에 사용되는 방법론 ( y가 주어져 있지 않은 경우 )
+            
+            a. Clustering
+                - 주어진 데이터(x)를 몇가지 그룹(subject of X ])으로 나누는 방법
+            b. Dimensionality Reduction
+                - 주어진 데이터(x)의 중요한 정보들을 뽑아내는 방법
+        3) Reinforcement Learning
+            - 목표를 최대화하는 학습 방법론
